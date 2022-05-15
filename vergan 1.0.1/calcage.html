@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<!--هذا الوسم من الميتا يعبر عن وصف الصفحة ويظهر فى محركات البحث ليس له اهمية فى التجارب حاليا لكن مهم عند التصميم-->
+		<meta name="descreption" content="ahmed kamal ahmed hsan hmed">
+		<title>Calculat Age</title>
+		<style></style>
+		<link rel="stylesheet" href="calcage.css">
+
+    </head>
+    <body>
+        <form>
+            <label>Change Date : </label>
+            <input type="datetime-local" id="date">
+            
+            <select id="select" name=" test">
+                <option name="MilliSecond" value="1">Milli Second</option>
+                <option name="Second" value="1000">Second</option>
+                <option name="Minut" value="60000">Minut</option>
+                <option name="Hours" value="3600000">Hours</option>
+                <option name="Day" value="86400000">Day</option>
+                <option name="year" value="31536000000">year</option>
+            </select>
+            
+            <output id="out">test</output>
+        </form>
+        <script src="calcage.js"></script>
+    </body>
+</html>

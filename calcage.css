@@ -1,0 +1,52 @@
+*{
+    padding:0px;
+    margin:0px
+}
+
+body {
+    background-image:url(image.jpg);
+    background-size:cover;
+}
+
+form {
+    position:fixed;
+    top:50%;
+    left:5%;
+    background:#fff;
+    padding:20px;
+    width:90%;
+    box-sizing:border-box;
+    border:3px solid #6d1066;
+    border-radius:25px;
+    opacity:.9
+}
+
+label {
+    font-weight:bold;
+    font-size:20px
+}
+
+input {
+    padding:10px;
+    width:30%;
+    margin-left:1%;
+    margin-right:3%;
+    font-weight:bold
+}
+
+select {
+    padding:10px;
+    width:15%;
+    margin-right:10%;
+    font-weight:bold
+}
+
+output {
+    padding:10px 25px;
+    border:1px solid #ccc;
+    display:inline-block;
+    width:20%;
+    letter-spacing:.5px;
+    color:#333;
+    font-weight:bold
+}
